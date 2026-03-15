@@ -17,10 +17,14 @@ st.markdown("""
         background-color: #0e1117;
     }
     .stMetric {
-        background-color: #1f2937;
+        background-color: #38bdf8; /* Light Blue */
         padding: 15px;
         border-radius: 10px;
-        border: 1px solid #374151;
+        border: 1px solid #0ea5e9;
+    }
+    /* Target labels, values, and deltas to be white */
+    [data-testid="stMetricLabel"] p, [data-testid="stMetricValue"] div, [data-testid="stMetricDelta"] div {
+        color: white !important;
     }
     </style>
     """, unsafe_allow_html=True)
